@@ -57,7 +57,7 @@ package Aps;
 	                PrintWriter pw = new PrintWriter(osw, true);
 	                ){
 	            for(Funcionario funcionario: Funcionarios){
-	                pw.println(funcionario.getnome()+","+funcionario.getsalario()+","+funcionario.getid());
+	                pw.println(funcionario.getid()+","+funcionario.getnome()+","+funcionario.getsalario());
 	            }
 
 	        }catch(IOException e){
@@ -68,4 +68,6 @@ package Aps;
 
 
 	}
+
+
 
